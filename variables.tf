@@ -15,7 +15,7 @@
 variable "types"{
     type = map
     default = {
-        us-east-1 = "t2.nano",
+        us-east-1 = "t2.Micro",
         ap-south-1 = "t2.micro",
         us-west-1 = "t2.medium"
         }
